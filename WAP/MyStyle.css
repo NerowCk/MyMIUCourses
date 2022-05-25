@@ -1,0 +1,53 @@
+.cover{
+width: 100%;
+ height: 50rem; 
+}
+#coverImage{
+   
+    height: 30rem;
+    width: 100%;
+    
+    border-radius: 30px;
+    object-fit: cover ;
+    object-position: center 35%;
+    
+}
+#profil{
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50%;
+    width: 25%;
+    height: 50%;
+   position: relative;    
+    bottom: 200px;
+    left: 37.5%;
+    border: 5px solid rgb(255, 255, 255)
+}
+
+#profilname{
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50%;
+    width: 25%;
+    height: 50%;
+   position: relative;    
+    bottom: 200px;
+    left: 44%;
+}
+
+.footer{
+    position: relative  ;
+    bottom: -130px;
+    padding: 2px;
+    background-color: #fcfcfc;
+    border: 5px solid rgb(255, 255, 255)
+    
+}
+.rightAside{
+    position: static;
+    float: left;
+}
+.leftAside{
+    
+    float: right;
+}

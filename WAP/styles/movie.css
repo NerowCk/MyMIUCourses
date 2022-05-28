@@ -95,7 +95,7 @@
 
     grid-column: 2/3;    
     display: grid;
-    grid-row: 25% 75%;
+    grid-template-rows: 25% 75%;
     
    
 }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+1. Implement code for a web page the displays the attached Web Form (file named, webform1.PNG).
+
+2. In your html form markup code from task 1, include a feature such that the User can only submit the form if the Password field is at least 10 characters in length 
+and contain at least one number and one uppercase and lowercase letter).
+
+3. Add to your above web form, an additional text input field, where the user must only enter a website url, 
+and they must enter it beginning with either the string, "http://" or "https://".
+
+4. Implement code for another web page that displays as shown in the attached image including the navbar and the Web Form (file named, Webform2.PNG).
+-->
+
+<head>
+    <title>MIU Golden Dorm Market</title>
+    <script src="../lib/bootstrap-4.4.1-dist/js/jquery-slim.min.js"></script>
+    <script src="../lib/bootstrap-4.4.1-dist/js/popper.min.js"></script>
+    <script src="../lib/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../lib/bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+   
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav bg-primary text-white">
+            <div class="nav-item">
+                <div class="nav-link active" id="maharishiHeader">MIU Golden Dorm Market ::: SRM System</div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 d-flex justify-content-center">
+        <div class="content w-50">
+            <form action="#" onsubmit="handleSubmit()" id="loginForm">
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                    <small id="emailHelp" class="form-text text-muted">we respect your privacy</small>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{10,}$" minlength="10" required>
+                </div>
+                <div class="form-group">
+                    <label for="webUrl">Website URL</label>
+                    <input type="text" class="form-control" id="webUrl" pattern="^https?:\/\/[a-z]+\..+$" required>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="checkMeOut">
+                    <label class="form-check-label" for="checkMeOut">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

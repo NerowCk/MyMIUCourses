@@ -16,6 +16,8 @@ import printFibo from './exo13.js'
 
 import printResults from './resultsPrinter.js'
 
+
+document.getElementById("mybtn").addEventListener("click",main,false)
 export default function main (){
     printResults('1. max(1,3)', max(1, 3))
     printResults('2. maxOfThree(4,38, 55)',  maxOfThree(4, 38, 55))
@@ -48,5 +50,5 @@ function ticking() {
     document.getElementById("seconds").innerHTML = date.getSeconds();
 }
 (startClock())
-console.log(main())
+
 

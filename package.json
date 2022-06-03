@@ -1,0 +1,21 @@
+{
+  "name": "mymiucourses-",
+  "version": "1.0.0",
+  "description": "my MIU courses",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NerowCk/MyMIUCourses-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NerowCk/MyMIUCourses-/issues"
+  },
+  "homepage": "https://github.com/NerowCk/MyMIUCourses-#readme"
+}

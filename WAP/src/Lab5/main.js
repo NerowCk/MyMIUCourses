@@ -15,7 +15,8 @@ import findSecondBiggest from './exo12.js'
 import printFibo from './exo13.js'
 
 import printResults from './resultsPrinter.js'
-function main (){
+
+export default function main (){
     printResults('1. max(1,3)', max(1, 3))
     printResults('2. maxOfThree(4,38, 55)',  maxOfThree(4, 38, 55))
     printResults('3. isVowel("e")',  isVowel('e'))
